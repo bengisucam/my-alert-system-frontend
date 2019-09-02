@@ -57,7 +57,7 @@
 }
 
 .ReactTable .rt-noData{
-    display:block;
+    display:flex;
     position:absolute;
     left:50%;
     top:50%;
@@ -67,7 +67,7 @@
     z-index : 1;
     pointer-events: none;
     padding:20px;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0);
 }
 
 .ReactTable .rt-thead .rt-th.-cursor-pointer, .ReactTable .rt-thead .rt-td.-cursor-pointer{

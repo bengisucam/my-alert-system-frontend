@@ -18,9 +18,7 @@ class App extends Component{
     render(){
         return (
             <div className="App">
-                <FormTable></FormTable>
                 <ListTable></ListTable>
-                <ChartTable ></ChartTable>
 
 
             </div>

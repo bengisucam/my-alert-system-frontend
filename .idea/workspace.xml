@@ -85,7 +85,12 @@
       <workItem from="1566669639211" duration="7833000" />
       <workItem from="1566679764576" duration="4076000" />
       <workItem from="1566711650356" duration="4083000" />
-      <workItem from="1566799195549" duration="6788000" />
+      <workItem from="1566799195549" duration="8271000" />
+      <workItem from="1566885148208" duration="1962000" />
+      <workItem from="1566969048116" duration="3404000" />
+      <workItem from="1567056105212" duration="6842000" />
+      <workItem from="1567263452458" duration="12240000" />
+      <workItem from="1567401750442" duration="19800000" />
     </task>
     <servers />
   </component>
@@ -97,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

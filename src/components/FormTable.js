@@ -26,8 +26,11 @@ class FormTable extends Component{
             controlPeriod: this.state.controlPeriod
         };
 
-        axios.post('http://localhost:8080/alerts', newAlert)
-            .then(res => console.log(res.data))
+        axios.post('http://localhost:8080/addAlert', newAlert)
+            .then(res => {
+                console.log(res.data);
+                this.props.handleAdd(res.data);
+            })
             .catch(error => {console.log("error: ", error)});
 
         this.setState({
@@ -93,10 +96,10 @@ class FormTable extends Component{
                             <label> HTTP Method </label>
                             <select value={this.state.httpMethod} onChange={this.handleHttpMethodChange} defaultValue={false} >
                                 <option value='' selected="selected" class="SelectedHttpMethod">Select a method </option>
-                                <option value="get"> GET </option>
-                                <option value="post"> POST </option>
-                                <option value="put"> PUT </option>
-                                <option value="delete"> DELETE </option>
+                                <option value="GET"> GET </option>
+                                <option value="POST"> POST </option>
+                                <option value="PUT"> PUT </option>
+                                <option value="DELETE"> DELETE </option>
                             </select>
                         </div>
 

@@ -11,6 +11,7 @@
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.9.0",
     "react-import": "^1.5.3",
+    "react-newline-to-break": "^1.0.6",
     "react-scripts": "3.1.1",
     "react-table": "^6.10.0"
   },
